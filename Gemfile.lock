@@ -118,9 +118,6 @@ GEM
     guard-shell (0.7.1)
       guard (>= 2.0.0)
       guard-compat (~> 1.0)
-    guard-yard (2.1.4)
-      guard (>= 1.1.0)
-      yard (>= 0.7.0)
     highline (1.7.8)
     i18n (0.7.0)
     jbuilder (2.4.1)
@@ -237,6 +234,8 @@ GEM
       rainbow (>= 1.99.1, < 3.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
+    rubocop-rspec (1.5.0)
+      rubocop (>= 0.40.0)
     ruby-progressbar (1.8.1)
     ruby_dep (1.3.1)
     shellany (0.0.1)
@@ -274,7 +273,6 @@ GEM
     websocket-extensions (0.1.2)
     xpath (2.0.0)
       nokogiri (~> 1.3)
-    yard (0.8.7.6)
 
 PLATFORMS
   ruby
@@ -292,7 +290,6 @@ DEPENDENCIES
   guard-rspec
   guard-rubocop
   guard-shell
-  guard-yard
   jbuilder (~> 2.0)
   json_spec
   pg (~> 0.18)
@@ -301,6 +298,7 @@ DEPENDENCIES
   rails (>= 5.0.0.rc1, < 5.1)
   rspec-rails
   rubocop
+  rubocop-rspec
   show_me_the_cookies
   travis
 
