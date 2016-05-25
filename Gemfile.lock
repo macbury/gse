@@ -171,8 +171,6 @@ GEM
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
-    quiet_assets (1.1.0)
-      railties (>= 3.1, < 5.0)
     rack (2.0.0.rc1)
       json
     rack-test (0.6.3)
@@ -294,7 +292,6 @@ DEPENDENCIES
   json_spec
   pg (~> 0.18)
   poltergeist
-  quiet_assets
   rails (>= 5.0.0.rc1, < 5.1)
   rspec-rails
   rubocop
