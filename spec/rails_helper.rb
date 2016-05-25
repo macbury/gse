@@ -1,50 +1,83 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV["RAILS_ENV"] ||= 'test'
-require 'spec_helper'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
-# Add additional requires below this line. Rails is not loaded until this point!
+require 'capybara/rspec'
+require 'capybara/poltergeist'
+require 'capybara/email/rspec'
+require 'factory_girl_rails'
 
-# Requires supporting ruby files with custom matchers and macros, etc, in
-# spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
-# run as spec files by default. This means that files in spec/support that end
-# in _spec.rb will both be required and run as specs, causing the specs to be
-# run twice. It is recommended that you do not name files matching this glob to
-# end with _spec.rb. You can configure this pattern with the --pattern
-# option on the command line or in ~/.rspec, .rspec or `.rspec-local`.
-#
-# The following line is provided for convenience purposes. It has the downside
-# of increasing the boot-up time by auto-requiring all files in the support
-# directory. Alternatively, in the individual `*_spec.rb` files, manually
-# require only the support files necessary.
-#
-# Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
+Capybara.register_driver :poltergeist do |app|
+  Capybara::Poltergeist::Driver.new(app, {
+    js_errors: true,
+    window_size: [1920, 1080],
+    phantomjs_logger: Rails.logger,
+    inspector: true
+  })
+end
+
+Capybara.javascript_driver = :poltergeist
+Capybara.default_driver    = :poltergeist
+
+Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 
 # Checks for pending migrations before tests are run.
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :active_record
+    with.library :rails
+  end
+end
+
 RSpec.configure do |config|
-  # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
+  config.expect_with :rspec do |expectations|
+    expectations.include_chain_clauses_in_custom_matcher_descriptions = true
+  end
+
+  config.mock_with :rspec do |mocks|
+    mocks.verify_partial_doubles = true
+  end
+
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
-
-  # If you're not using ActiveRecord, or you'd prefer not to run each of your
-  # examples within a transaction, remove the following line or assign false
-  # instead of true.
-  config.use_transactional_fixtures = true
-
-  # RSpec Rails can automatically mix in different behaviours to your tests
-  # based on their file location, for example enabling you to call `get` and
-  # `post` in specs under `spec/controllers`.
-  #
-  # You can disable this behaviour by removing the line below, and instead
-  # explicitly tag your specs with their type, e.g.:
-  #
-  #     RSpec.describe UsersController, :type => :controller do
-  #       # ...
-  #     end
-  #
-  # The different available types are documented in the features, such as in
-  # https://relishapp.com/rspec/rspec-rails/docs
+  config.use_transactional_fixtures = false
   config.infer_spec_type_from_file_location!
+  config.order = 'random'
+
+  config.before(:suite) do
+    WebpackSupport.start! if ENV['CI']
+    ScreenshotSupport.clean!
+  end
+
+  config.after(:suite) do
+    WebpackSupport.stop!
+  end
+
+  config.around(:each) do |example|
+    ActionMailer::Base.deliveries.clear
+    example.run
+  end
+
+  config.after(:each) do |example|
+    Warden.test_reset!
+    if example.metadata[:type] == :feature
+      if example.exception.present?
+        ScreenshotSupport.failure!(page, example)
+      else
+        ScreenshotSupport.success!(page, example)
+      end
+    end
+  end
+
+  config.before(:each) do |example|
+    DatabaseCleaner.clean
+    DatabaseCleaner.strategy = :truncation
+    DatabaseCleaner.start
+    if example.metadata[:type] == :feature
+      clear_emails
+    end
+  end
 end

@@ -26,6 +26,7 @@ group :test do
   gem 'rubocop', require: false
   gem 'json_spec'
   gem 'rubocop-rspec'
+  gem 'shoulda-matchers'
 end
 
 group :development do
