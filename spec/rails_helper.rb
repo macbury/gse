@@ -62,7 +62,6 @@ RSpec.configure do |config|
   end
 
   config.after(:each) do |example|
-    Warden.test_reset!
     if example.metadata[:type] == :feature
       if example.exception.present?
         ScreenshotSupport.failure!(page, example)

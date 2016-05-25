@@ -168,6 +168,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-rails (0.3.4)
+      pry (>= 0.9.10)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -285,6 +287,8 @@ DEPENDENCIES
   database_cleaner (~> 1.5.1)
   factory_girl_rails
   faker
+  faraday
+  faraday_middleware
   foreman
   guard-foreman
   guard-rspec
@@ -294,6 +298,7 @@ DEPENDENCIES
   json_spec
   pg (~> 0.18)
   poltergeist
+  pry-rails
   rails (>= 5.0.0.rc1, < 5.1)
   rspec-rails
   rubocop
