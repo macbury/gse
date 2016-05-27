@@ -20,8 +20,8 @@ chdir APP_ROOT do
 
   puts "\n== Copying sample files =="
   unless File.exist?("config/database.yml")
-    system "cp config/database.example.yml config/database.yml"
-    system "cp config/application.example.yml config/application.yml"
+    system "cp config/database.yml.example config/database.yml"
+    system "cp config/application.yml.example config/application.yml"
   end
 
   puts "\n== Preparing database =="
