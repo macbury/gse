@@ -22,6 +22,6 @@ describe PlayStation::StoreConsumer do
     expect(game).not_to be_nil
     expect(game.class).to eq(PlayStation::Game)
     expect(game.name).to eq('Dungeons 2')
-    expect(game.price).to eq(169)
+    expect(game.price).to eq(Money.new(169, 'PLN'))
   end
 end
