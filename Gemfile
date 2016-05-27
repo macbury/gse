@@ -25,11 +25,13 @@ group :test do
   gem 'database_cleaner', '~> 1.5.1'
   gem 'poltergeist'
   gem 'capybara-email'
+  gem 'webmock'
   gem 'show_me_the_cookies'
   gem 'travis', require: false
   gem 'rubocop', require: false
   gem 'json_spec'
   gem 'rubocop-rspec'
+  gem 'vcr'
   gem 'shoulda-matchers'
 end
 

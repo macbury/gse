@@ -16,3 +16,5 @@ AllCops:
 
 LineLength:
   Enabled: false
+Style/EmptyLinesAroundClassBody:
+  Enabled: false

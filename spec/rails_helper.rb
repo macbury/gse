@@ -6,6 +6,13 @@ require 'capybara/rspec'
 require 'capybara/poltergeist'
 require 'capybara/email/rspec'
 require 'factory_girl_rails'
+require 'webmock/rspec'
+require 'vcr'
+
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+  config.hook_into :webmock
+end
 
 Capybara.register_driver :poltergeist do |app|
   Capybara::Poltergeist::Driver.new(app, {
@@ -68,6 +75,15 @@ RSpec.configure do |config|
       else
         ScreenshotSupport.success!(page, example)
       end
+    end
+  end
+
+  config.around(:each) do |example|
+    name = example.metadata[:vcr]
+    if name.blank?
+      example.call
+    else
+      VCR.use_cassette(name) { example.call }
     end
   end
 
