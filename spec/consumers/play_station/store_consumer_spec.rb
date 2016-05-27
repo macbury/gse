@@ -18,10 +18,11 @@ describe PlayStation::StoreConsumer do
 
   it 'does return game class for first', vcr: '30-games' do
     consumer.next
+    binding.pry
     game = consumer.first
     expect(game).not_to be_nil
     expect(game.class).to eq(PlayStation::Game)
     expect(game.name).to eq('Dungeons 2')
-    expect(game.price).to eq(Money.new(169, 'PLN'))
+    expect(game.price).to eq(Money.new(16_900, 'PLN'))
   end
 end

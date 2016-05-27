@@ -7,7 +7,7 @@ gem 'pry-rails'
 
 gem 'faraday'
 gem 'faraday_middleware'
-
+gem 'faraday-http-cache'
 gem 'money-rails'
 
 group :development, :test do

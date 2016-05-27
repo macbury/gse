@@ -11,8 +11,7 @@ module PlayStation
       product_desc  = raw_json['default_sku']
 
       return if product_desc.blank?
-
-      @price = Money.new(product_desc['display_price'])
+      @price = Money.new(product_desc['price'])
     end
 
     # Is game published
