@@ -18,7 +18,6 @@ describe PlayStation::StoreConsumer do
 
   it 'does return game class for first', vcr: '30-games' do
     consumer.next
-    binding.pry
     game = consumer.first
     expect(game).not_to be_nil
     expect(game.class).to eq(PlayStation::Game)

@@ -2,7 +2,7 @@
 module PlayStation
   # This model describes playstation store game
   class Game
-    attr_accessor :name, :price, :description, :id, :release_date
+    attr_accessor :name, :price, :description, :id, :release_date, :images
     def initialize(raw_json = {})
       @id           = raw_json['id']
       @name         = raw_json['name']
