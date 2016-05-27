@@ -110,7 +110,7 @@ GEM
     guard-foreman (0.0.4)
       guard (~> 2.6)
       spoon (~> 0.0, >= 0.0.4)
-    guard-rspec (4.7.0)
+    guard-rspec (4.6.0)
       guard (~> 2.1)
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
@@ -147,6 +147,16 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.0.0)
     minitest (5.9.0)
+    monetize (1.4.0)
+      money (~> 6.7)
+    money (6.7.1)
+      i18n (>= 0.6.4, <= 0.7.0)
+      sixarm_ruby_unaccent (>= 1.1.1, < 2)
+    money-rails (1.6.1)
+      activesupport (>= 3.0)
+      monetize (~> 1.4.0)
+      money (~> 6.7)
+      railties (>= 3.0)
     multi_json (1.12.1)
     multipart-post (2.0.0)
     nenv (0.3.0)
@@ -247,6 +257,7 @@ GEM
       activesupport (>= 4.0.0)
     show_me_the_cookies (3.1.0)
       capybara (~> 2.0)
+    sixarm_ruby_unaccent (1.1.1)
     slop (3.6.0)
     spoon (0.0.4)
       ffi
@@ -300,11 +311,12 @@ DEPENDENCIES
   faraday_middleware
   foreman
   guard-foreman
-  guard-rspec
+  guard-rspec (= 4.6.0)
   guard-rubocop
   guard-shell
   jbuilder (~> 2.0)
   json_spec
+  money-rails
   pg (~> 0.18)
   poltergeist
   pry-rails
@@ -319,4 +331,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.12.4
+   1.12.5

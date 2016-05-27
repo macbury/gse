@@ -8,13 +8,15 @@ gem 'pry-rails'
 gem 'faraday'
 gem 'faraday_middleware'
 
+gem 'money-rails'
+
 group :development, :test do
   gem 'guard-foreman'
   gem 'annotate'
   gem 'foreman'
   gem 'rspec-rails'
 
-  gem 'guard-rspec'
+  gem 'guard-rspec', '4.6.0'
   gem 'guard-shell'
   gem 'guard-rubocop'
 end

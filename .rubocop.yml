@@ -4,7 +4,8 @@ AllCops:
     - 'lib/templates/**/*'
     - 'bin/**/*'
     - 'db/schema.rb'
-    - 'spec/**/*'
+    - 'spec/rails_helper.rb'
+    - 'spec/support/**/*'
     - 'db/**/*'
     - 'vendor/**/*'
     - 'webpack/**/*'
@@ -18,3 +19,5 @@ LineLength:
   Enabled: false
 Style/EmptyLinesAroundClassBody:
   Enabled: false
+RSpec/ExampleLength:
+  Max: 90
