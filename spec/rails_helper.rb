@@ -8,6 +8,8 @@ require 'capybara/email/rspec'
 require 'factory_girl_rails'
 require 'webmock/rspec'
 require 'vcr'
+require 'codeclimate-test-reporter'
+CodeClimate::TestReporter.start
 
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'

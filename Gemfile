@@ -23,6 +23,7 @@ end
 
 group :test do
   gem 'faker'
+  gem 'codeclimate-test-reporter', require: nil
   gem 'factory_girl_rails'
   gem 'database_cleaner', '~> 1.5.1'
   gem 'poltergeist'
