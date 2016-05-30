@@ -1,0 +1,1969 @@
+{
+      "bucket": "games",
+      "cloud_only_platform": [
+        "NONE"
+      ],
+      "container_type": "product",
+      "content_type": "1",
+      "default_sku": {
+        "amortizeFlag": false,
+        "bundleExclusiveFlag": false,
+        "chargeImmediatelyFlag": false,
+        "charge_type_id": 0,
+        "credit_card_required_flag": 0,
+        "defaultSku": true,
+        "display_price": "124,00 zl",
+        "eligibilities": [
+
+        ],
+        "entitlements": [
+          {
+            "description": null,
+            "drms": [
+
+            ],
+            "duration": 0,
+            "exp_after_first_use": 0,
+            "feature_type_id": 3,
+            "id": "EP0006-CUSA00049_00-BATTLEFIELD40000",
+            "license_type": 0,
+            "name": "Battlefield 4\u2122",
+            "packages": [
+              {
+                "platformId": 13,
+                "platformName": "ps4",
+                "size": 36419207168
+              }
+            ],
+            "preorder_placeholder_flag": false,
+            "size": 0,
+            "subType": 0,
+            "subtitle_language_codes": [
+              "de",
+              "ru",
+              "en",
+              "it",
+              "pl",
+              "fr",
+              "es"
+            ],
+            "type": 5,
+            "use_count": 0,
+            "voice_language_codes": [
+              "de",
+              "ru",
+              "en",
+              "it",
+              "pl",
+              "fr",
+              "es"
+            ]
+          }
+        ],
+        "id": "EP0006-CUSA00049_00-BATTLEFIELD40000-E003",
+        "is_original": false,
+        "name": "Full Game",
+        "platforms": [
+          0,
+          10,
+          13
+        ],
+        "price": 12400,
+        "rewards": [
+
+        ],
+        "seasonPassExclusiveFlag": false,
+        "skuAvailabilityOverrideFlag": false,
+        "sku_type": 0,
+        "type": "standard"
+      },
+      "gameContentTypesList": [
+        {
+          "name": "Full Game",
+          "key": "FULL_GAME"
+        }
+      ],
+      "game_contentType": "Full Game",
+      "id": "EP0006-CUSA00049_00-BATTLEFIELD40000",
+      "images": [
+        {
+          "type": 1,
+          "url": "http:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/mLc6FLwM9JzTIMzDP82xUfHiOTfYvycL.png"
+        },
+        {
+          "type": 2,
+          "url": "http:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/p40cJYnJ0KmP5gDwqbd0yYfhPrkQuPH1.png"
+        },
+        {
+          "type": 9,
+          "url": "http:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/xC07fjBvSuKnFmDI47F4NX3GKrqR254D.png"
+        },
+        {
+          "type": 10,
+          "url": "http:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/ICcPzCS2XUjvKTCFJ6VIXpZrqF99NUSG.png"
+        },
+        {
+          "type": 12,
+          "url": "http:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/igWongSLd6SU5M8mLM2r9NyLL506oWew.jpg"
+        },
+        {
+          "type": 13,
+          "url": "http:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/WzmzG6sUxEYKobmKF15ChMbjJR0C2sxX.png"
+        }
+      ],
+      "name": "Battlefield 4\u2122",
+      "playable_platform": [
+        "PS4\u2122"
+      ],
+      "provider_name": "ELECTRONIC ARTS LTD",
+      "release_date": "2013-11-29T00:00:00Z",
+      "restricted": false,
+      "revision": 46,
+      "short_name": "Battlefield 4\u2122",
+      "timestamp": 1463616113000,
+      "top_category": "downloadable_game",
+      "url": "https:\/\/store.playstation.com\/store\/api\/chihiro\/00_09_000\/container\/PL\/en\/19\/EP0006-CUSA00049_00-BATTLEFIELD40000?game_content_type=games&platform=ps4&size=120&gkb=1&geoCountry=PL&start=0&direction=as",
+      "expanded": true,
+      "age_limit": 18,
+      "attributes": {
+        "facets": {
+          "game_content_type": [
+            {
+              "name": "Add-Ons",
+              "count": 24,
+              "key": "addons"
+            },
+            {
+              "name": "Other Extras",
+              "count": 4,
+              "key": "other_extras"
+            }
+          ]
+        },
+        "next": [
+
+        ]
+      },
+      "content_descriptors": [
+        {
+          "description": "Language",
+          "url": "https:\/\/cdn-a.sonyentertainmentnetwork.com\/grc\/images\/descriptors\/sd\/pegi\/language.png",
+          "name": "Language"
+        },
+        {
+          "description": "Online",
+          "url": "https:\/\/cdn-a.sonyentertainmentnetwork.com\/grc\/images\/descriptors\/sd\/pegi\/online.png",
+          "name": "Online"
+        },
+        {
+          "description": "Violence",
+          "url": "https:\/\/cdn-a.sonyentertainmentnetwork.com\/grc\/images\/descriptors\/sd\/pegi\/violence.png",
+          "name": "Violence"
+        }
+      ],
+      "content_origin": 0,
+      "content_rating": {
+        "rating_system": "PEGI",
+        "url": "https:\/\/cdn-a.sonyentertainmentnetwork.com\/grc\/images\/ratings\/hd\/pegi\/18.png"
+      },
+      "dob_required": false,
+      "links": [
+
+      ],
+      "long_desc": "Battlefield 4\u2122 is the genre-defining action blockbuster made from moments that blur the line between game and glory. Fueled by the next-generation power and fidelity of Frostbite\u2122 3, Battlefield 4 provides a visceral, dramatic experience unlike any other.<br><br>Only in Battlefield will you blow the foundations of a dam or reduce an entire skyscraper to rubble, or lead a naval assault from the back of a gun boat. Battlefield grants you the freedom to do more and be more while playing to your strengths and carving your own path to victory.<br><br>In addition to its hallmark multiplayer, Battlefield 4 features an intense and dramatic character-driven campaign that starts with the evacuation of American VIPs from Shanghai and follows your squad's struggle to find its way home.<br><br>There is no comparison. Immerse yourself in the glorious chaos of all-out war, found only in Battlefield.<br><br>Play as you download for this title requires an initial download of 6.2 GB<br><br>1 player<br>Network Players 2-64 - Full game requires PlayStation\u00aePlus membership to access online multiplayer<br>DUALSHOCK\u00ae4 Vibration Function<br>HD Video Output 720p,1080i,1080p<br><br>Download of this product is subject to the PlayStation Network Terms of Service and our Software Usage Terms plus any specific additional conditions applying to this product. If you do not wish to accept these terms, do not download this product. See Terms of Service for more important information.<br> One-time licence fee to download to multiple PS4 systems. Sign in to PlayStation Network is not required to use this on your primary PS4, but is required for use on other PS4 systems.<br>See Health Warnings for important health information before using this product.<br>Library programs \u00a9Sony Computer Entertainment Inc. exclusively licensed to Sony Computer Entertainment Europe. Software Usage Terms apply, See eu.playstation.com\/legal for full usage rights.<br><br>\u00a92013 Electronic Arts Inc. Battlefield and Battlefield 4 are trademarks of EA Digital Illusions CE AB. All other trademarks are the property of their respective owners.<br>THE DEPICTION OF ANY WEAPON OR VEHICLE IN THIS GAME DOES NOT INDICATE AFFILIATION, SPONSORSHIP OR ENDORSEMENT BY ANY WEAPON OR VEHICLE MANUFACTURER.",
+      "mediaList": {
+        "previews": [
+          {
+            "type": "PREVIEW",
+            "typeId": 2,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/FREE_CONTENTmagvKlARY6abhKyBesVl\/PREVIEW_GAMEPLAY_VIDEO_416515.mp4",
+            "order": 5,
+            "streamUrl": "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/PREVIEW_GAMEPLAY_VIDEO_416515_playlist.m3u8",
+            "shots": [
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0011.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0010.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0009.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0008.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0007.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0006.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0005.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0004.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0003.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0002.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0001.jpg",
+              "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/1315212\/frame_0000.jpg"
+            ]
+          }
+        ],
+        "screenshots": [
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/FREE_CONTENTI3EuUf72Ivqtk04foHEv\/PREVIEW_SCREENSHOT5_416515.jpg",
+            "order": 0
+          },
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/FREE_CONTENTY39wfK3eHQqayEm2tFeY\/PREVIEW_SCREENSHOT4_416515.jpg",
+            "order": 1
+          },
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/FREE_CONTENTHzSpQtGXxT8wRcOli5TV\/PREVIEW_SCREENSHOT3_416515.jpg",
+            "order": 2
+          },
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/FREE_CONTENTpttzNtylF130ybJH4vR8\/PREVIEW_SCREENSHOT2_416515.jpg",
+            "order": 3
+          },
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/FREE_CONTENT6T7HYwemedqFdlZgydon\/PREVIEW_SCREENSHOT1_416515.jpg",
+            "order": 4
+          }
+        ]
+      },
+      "media_layouts": [
+        {
+          "type": "banner",
+          "image": "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0010.jpg",
+          "height": 1,
+          "width": 2,
+          "play": 1,
+          "bannerType": "trailer",
+          "caption": "",
+          "action": "video",
+          "url": "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/cdcb290badd2c54d860895b883c9ebf818e5c2b2-618602_playlist.m3u8"
+        },
+        {
+          "type": "banner",
+          "image": "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-EVI0000000000250-EE01\/frame_0010.jpg",
+          "height": 1,
+          "width": 2,
+          "play": 1,
+          "bannerType": "",
+          "caption": "Battlefield 4\u2122 Dragon's Teeth Official Trailer",
+          "action": "video",
+          "url": "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-EVI0000000000250-EE01\/BF4-Dragons-Teeth-Trailer_EN-PEGI_PS4_playlist.m3u8"
+        },
+        {
+          "type": "description",
+          "height": 1,
+          "width": 2
+        },
+        {
+          "type": "screenshots",
+          "height": 1,
+          "width": 1
+        },
+        {
+          "type": "banner",
+          "image": "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-EVI0000000000250-EPL1\/frame_0010.jpg",
+          "height": 1,
+          "width": 1,
+          "play": 1,
+          "bannerType": "",
+          "caption": "Battlefield 4\u2122 Dragon's Teeth Official Trailer",
+          "action": "video",
+          "url": "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-EVI0000000000250-EPL1\/BF4-Dragons-Teeth-Trailer_PL-PEGI_PS4_playlist.m3u8"
+        }
+      ],
+      "metadata": {
+        "genre": {
+          "name": "Genre",
+          "values": [
+            "Action"
+          ]
+        },
+        "tertiary_classification": {
+          "name": "tertiary_classification",
+          "values": [
+            "NA"
+          ]
+        },
+        "cn_vrRequired": {
+          "name": "cn_vrRequired",
+          "values": [
+            "FALSE"
+          ]
+        },
+        "cn_dualshockVibration": {
+          "name": "cn_dualshockVibration",
+          "values": [
+            "TRUE"
+          ]
+        },
+        "cn_videoOutput": {
+          "name": "cn_videoOutput",
+          "values": [
+            "1080i",
+            "1080p",
+            "720p"
+          ]
+        },
+        "cloud_only_platform": {
+          "name": "cloud_only_platform",
+          "values": [
+            "NONE"
+          ]
+        },
+        "game_genre": {
+          "name": "Genre",
+          "values": [
+            "ACTION"
+          ]
+        },
+        "cn_playstationCamera": {
+          "name": "cn_playstationCamera",
+          "values": [
+            "NOTREQUIRED"
+          ]
+        },
+        "game_subgenre": {
+          "name": "subgenre",
+          "values": [
+            "FIRST_PERSON_SHOOTER"
+          ]
+        },
+        "playable_platform": {
+          "name": "playable_platform",
+          "values": [
+            "PS4\u2122"
+          ]
+        },
+        "cn_numberOfNetworkPlayersPSPlus": {
+          "name": "cn_numberOfNetworkPlayersPSPlus",
+          "values": [
+            "64"
+          ]
+        },
+        "cn_playstationMove": {
+          "name": "cn_playstationMove",
+          "values": [
+            "NOTREQUIRED"
+          ]
+        },
+        "cn_remotePlay": {
+          "name": "cn_remotePlay",
+          "values": [
+            "FALSE"
+          ]
+        },
+        "subgenre": {
+          "name": "subgenre",
+          "values": [
+            "FIRST_PERSON_SHOOTER"
+          ]
+        },
+        "cn_wirelessController": {
+          "name": "cn_wirelessController",
+          "values": [
+            "NOTREQUIRED"
+          ]
+        },
+        "container_type": {
+          "name": "Container Type",
+          "values": [
+            "NP_PS4_REPRESENTATIVE"
+          ]
+        },
+        "cn_crossPlatformPSVita": {
+          "name": "cn_crossPlatformPSVita",
+          "values": [
+            "FALSE"
+          ]
+        },
+        "cn_vrEnabled": {
+          "name": "cn_vrEnabled",
+          "values": [
+            "FALSE"
+          ]
+        },
+        "secondary_classification": {
+          "name": "secondary_classification",
+          "values": [
+            "GAME"
+          ]
+        },
+        "cn_singstarMicrophone": {
+          "name": "cn_singstarMicrophone",
+          "values": [
+            "NOTREQUIRED"
+          ]
+        },
+        "primary_classification": {
+          "name": "primary_classification",
+          "values": [
+            "PREMIUM_GAME"
+          ]
+        }
+      },
+      "pageTypeId": 2,
+      "promomedia": [
+        {
+          "id": 0,
+          "key": "preview",
+          "type": 2,
+          "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0006\/CUSA00049_00\/FREE_CONTENTmagvKlARY6abhKyBesVl\/PREVIEW_GAMEPLAY_VIDEO_416515.mp4?country=PL"
+        },
+        {
+          "anno": "",
+          "id": 8193,
+          "key": "space",
+          "materials": [
+            {
+              "anno": "",
+              "countries": [
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ae"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "at"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "au"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "be"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bg"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bh"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ch"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cy"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "de"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "dk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "es"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fi"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ie"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "il"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "in"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "is"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "it"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "kw"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "mt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "no"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "om"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "qa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ro"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ru"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "se"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "si"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "tr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ua"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "za"
+                }
+              ],
+              "from": "2013-11-14T00:00:00.000Z",
+              "id": 1080634633,
+              "lang": [
+                "all"
+              ],
+              "lastm": "2013-11-14T14:25:07.000Z",
+              "until": "2100-12-31T23:59:00.000Z",
+              "urls": [
+                {
+                  "type": 26,
+                  "url": "https:\/\/nsx.np.dl.playstation.net\/nsx\/material\/b\/bb80bc0b27531be252a2369a3790dbdf9ccf9b4f-601850.jpg"
+                }
+              ]
+            },
+            {
+              "anno": "",
+              "countries": [
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ae"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "at"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "au"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "be"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bg"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bh"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ch"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cy"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "de"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "dk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "es"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fi"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ie"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "il"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "in"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "is"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "it"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "kw"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "mt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "no"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "om"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "qa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ro"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ru"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "se"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "si"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "tr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ua"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "za"
+                }
+              ],
+              "from": "2013-11-14T00:00:00.000Z",
+              "id": 1080634631,
+              "lang": [
+                "all"
+              ],
+              "lastm": "2013-11-14T14:24:10.000Z",
+              "until": "2100-12-31T23:59:00.000Z",
+              "urls": [
+                {
+                  "type": 26,
+                  "url": "https:\/\/nsx.np.dl.playstation.net\/nsx\/material\/3\/3ec6d9bb28d14cba4e06164ca8662a033d9fdc32-601848.jpg"
+                }
+              ]
+            },
+            {
+              "anno": "",
+              "countries": [
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ae"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "at"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "au"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "be"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bg"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bh"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ch"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cy"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "de"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "dk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "es"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fi"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ie"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "il"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "in"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "is"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "it"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "kw"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "mt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "no"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "om"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "qa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ro"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ru"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "se"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "si"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "tr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ua"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "za"
+                }
+              ],
+              "from": "2013-11-14T00:00:00.000Z",
+              "id": 1080634629,
+              "lang": [
+                "all"
+              ],
+              "lastm": "2013-11-14T14:23:23.000Z",
+              "until": "2100-12-31T23:59:00.000Z",
+              "urls": [
+                {
+                  "type": 26,
+                  "url": "https:\/\/nsx.np.dl.playstation.net\/nsx\/material\/3\/3b1a8e99000adfaafda4d75d5f0936540a603bb1-601846.jpg"
+                }
+              ]
+            },
+            {
+              "anno": "",
+              "countries": [
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ae"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "at"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "au"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "be"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bg"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bh"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ch"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cy"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "de"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "dk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "es"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fi"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ie"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "il"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "in"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "is"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "it"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "kw"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "mt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "no"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "om"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "qa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ro"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ru"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "se"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "si"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "tr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ua"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "za"
+                }
+              ],
+              "from": "2013-11-14T00:00:00.000Z",
+              "id": 1080634628,
+              "lang": [
+                "all"
+              ],
+              "lastm": "2013-11-14T14:22:49.000Z",
+              "until": "2100-12-31T23:59:00.000Z",
+              "urls": [
+                {
+                  "type": 26,
+                  "url": "https:\/\/nsx.np.dl.playstation.net\/nsx\/material\/7\/7c70a308515f50497c38afaf41e6420a31528c6e-601845.jpg"
+                }
+              ]
+            },
+            {
+              "anno": "",
+              "countries": [
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ae"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "at"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "au"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "be"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bg"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bh"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ch"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cy"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "de"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "dk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "es"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fi"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ie"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "il"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "in"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "is"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "it"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "kw"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "mt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "no"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "om"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "qa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ro"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ru"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "se"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "si"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "tr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ua"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "za"
+                }
+              ],
+              "from": "2013-11-14T00:00:00.000Z",
+              "id": 1080634622,
+              "lang": [
+                "all"
+              ],
+              "lastm": "2013-11-14T14:18:06.000Z",
+              "until": "2100-12-31T23:59:00.000Z",
+              "urls": [
+                {
+                  "type": 26,
+                  "url": "https:\/\/nsx.np.dl.playstation.net\/nsx\/material\/f\/f2208fac743e743987fe24e2752adfd491d1df8d-601839.jpg"
+                }
+              ]
+            }
+          ],
+          "multi": "ordered",
+          "rep": "t",
+          "type": 99
+        },
+        {
+          "anno": "",
+          "id": 8195,
+          "key": "space",
+          "materials": [
+            {
+              "anno": "",
+              "countries": [
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ae"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "at"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "au"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "be"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bg"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "bh"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ch"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cy"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "cz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "de"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "dk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "es"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fi"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "fr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "gr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "hu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ie"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "il"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "in"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "is"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "it"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "kw"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lb"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "lu"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "mt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "no"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "nz"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "om"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pl"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "pt"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "qa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ro"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ru"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sa"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "se"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "si"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "sk"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "tr"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "ua"
+                },
+                {
+                  "agelimit": 0,
+                  "uagelimit": 0,
+                  "country": "za"
+                }
+              ],
+              "from": "2013-11-27T00:00:00.000Z",
+              "id": 1080639102,
+              "lang": [
+                "all"
+              ],
+              "lastm": "2013-11-27T16:18:29.000Z",
+              "until": "2100-12-31T23:59:00.000Z",
+              "urls": [
+                {
+                  "type": 28,
+                  "url": "https:\/\/nsx.np.dl.playstation.net\/nsx\/material\/c\/cdcb290badd2c54d860895b883c9ebf818e5c2b2-618602.mp4?country=PL"
+                }
+              ]
+            }
+          ],
+          "multi": "ordered",
+          "rep": "t",
+          "type": 99
+        },
+        {
+          "id": 0,
+          "key": "hls_stream",
+          "thumbnails": [
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0011.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0010.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0009.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0008.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0007.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0006.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0005.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0004.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0003.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0002.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0001.jpg",
+            "http:\/\/d1v33d7b5ul6gp.cloudfront.net\/EP0006-CUSA00049_00-BATTLEFIELD40000_3840\/frame_0000.jpg"
+          ],
+          "type": 98,
+          "url": "http:\/\/nsx.np.dl.playstation.net\/nsx\/material\/c\/cdcb290badd2c54d860895b883c9ebf818e5c2b2-618602.mp4?country=PL"
+        }
+      ],
+      "size": 0,
+      "sku_links": [
+
+      ],
+      "skus": [
+        {
+          "amortizeFlag": false,
+          "bundleExclusiveFlag": false,
+          "chargeImmediatelyFlag": false,
+          "charge_type_id": 0,
+          "credit_card_required_flag": 0,
+          "defaultSku": true,
+          "display_price": "124,00 zl",
+          "eligibilities": [
+
+          ],
+          "entitlements": [
+            {
+              "description": null,
+              "drms": [
+
+              ],
+              "duration": 0,
+              "exp_after_first_use": 0,
+              "feature_type_id": 3,
+              "id": "EP0006-CUSA00049_00-BATTLEFIELD40000",
+              "license_type": 0,
+              "name": "Battlefield 4\u2122",
+              "packages": [
+                {
+                  "platformId": 13,
+                  "platformName": "ps4",
+                  "size": 36419207168
+                }
+              ],
+              "preorder_placeholder_flag": false,
+              "size": 0,
+              "subType": 0,
+              "subtitle_language_codes": [
+                "de",
+                "ru",
+                "en",
+                "it",
+                "pl",
+                "fr",
+                "es"
+              ],
+              "type": 5,
+              "use_count": 0,
+              "voice_language_codes": [
+                "de",
+                "ru",
+                "en",
+                "it",
+                "pl",
+                "fr",
+                "es"
+              ]
+            }
+          ],
+          "id": "EP0006-CUSA00049_00-BATTLEFIELD40000-E003",
+          "is_original": false,
+          "name": "Full Game",
+          "platforms": [
+            0,
+            10,
+            13
+          ],
+          "price": 12400,
+          "rewards": [
+
+          ],
+          "seasonPassExclusiveFlag": false,
+          "skuAvailabilityOverrideFlag": false,
+          "sku_type": 0,
+          "type": "standard"
+        }
+      ],
+      "sort": "static",
+      "star_rating": {
+        "total": "69100",
+        "score": "4.61",
+        "count": [
+          {
+            "star": 1,
+            "count": 2244
+          },
+          {
+            "star": 2,
+            "count": 708
+          },
+          {
+            "star": 3,
+            "count": 2801
+          },
+          {
+            "star": 4,
+            "count": 9874
+          },
+          {
+            "star": 5,
+            "count": 53473
+          }
+        ]
+      },
+      "start": 0,
+      "title_name": "Battlefield 4\u2122",
+      "total_results": 0,
+      "depth": 0,
+      "skuFound": true
+    }

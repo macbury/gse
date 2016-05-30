@@ -1,0 +1,639 @@
+{
+      "bucket": "games",
+      "container_type": "product",
+      "content_type": "1",
+      "default_sku": {
+        "amortizeFlag": false,
+        "bundleExclusiveFlag": false,
+        "chargeImmediatelyFlag": false,
+        "charge_type_id": 0,
+        "credit_card_required_flag": 0,
+        "defaultSku": true,
+        "display_price": "63,00 zl",
+        "eligibilities": [
+
+        ],
+        "end_date": "2016-06-07T23:00:00Z",
+        "entitlements": [
+          {
+            "description": null,
+            "drms": [
+
+            ],
+            "duration": 0,
+            "exp_after_first_use": 0,
+            "feature_type_id": 0,
+            "id": "EP0576-CUSA04143_00-ETH0000000000367",
+            "license_type": 0,
+            "name": "LastBlade2",
+            "packages": [
+              {
+                "platformId": 13,
+                "platformName": "ps4",
+                "size": 10485760
+              }
+            ],
+            "preorder_placeholder_flag": false,
+            "size": 0,
+            "subType": 0,
+            "subtitle_language_codes": null,
+            "type": 5,
+            "use_count": 0,
+            "voice_language_codes": null
+          },
+          {
+            "description": null,
+            "drms": [
+
+            ],
+            "duration": 0,
+            "exp_after_first_use": 0,
+            "feature_type_id": 3,
+            "id": "EP0576-CUSA04143_00-LASTBLADE2000PS4",
+            "license_type": 0,
+            "name": "THE LAST BLADE 2",
+            "packages": [
+              {
+                "platformId": 13,
+                "platformName": "ps4",
+                "size": 259194880
+              }
+            ],
+            "preorder_placeholder_flag": false,
+            "size": 0,
+            "subType": 0,
+            "subtitle_language_codes": [
+              "pt",
+              "ja",
+              "en",
+              "es"
+            ],
+            "type": 5,
+            "use_count": 0,
+            "voice_language_codes": [
+              "ja"
+            ]
+          },
+          {
+            "description": null,
+            "drms": [
+              {
+                "drm_category_type": 5,
+                "id": "EP0576-PCSB00927_00-ETH0000000000368",
+                "is_streamable": 0,
+                "media_prop": {
+
+                },
+                "size": 5570352,
+                "type": 2
+              }
+            ],
+            "duration": 0,
+            "exp_after_first_use": 0,
+            "feature_type_id": 0,
+            "id": "EP0576-PCSB00927_00-ETH0000000000368",
+            "license_type": 1,
+            "name": "THE LAST BLADE 2 THEME",
+            "packages": [
+
+            ],
+            "preorder_placeholder_flag": false,
+            "size": 0,
+            "subType": 0,
+            "subtitle_language_codes": null,
+            "type": 2,
+            "use_count": 0,
+            "voice_language_codes": null
+          },
+          {
+            "description": null,
+            "drms": [
+              {
+                "drm_category_type": 5,
+                "id": "EP0576-PCSB00927_00-LASTBLADE2000PSV",
+                "is_streamable": 0,
+                "media_prop": {
+
+                },
+                "size": 164114992,
+                "type": 2
+              }
+            ],
+            "duration": 0,
+            "exp_after_first_use": 0,
+            "feature_type_id": 0,
+            "id": "EP0576-PCSB00927_00-LASTBLADE2000PSV",
+            "license_type": 1,
+            "name": "THE LAST BLADE 2",
+            "packages": [
+
+            ],
+            "preorder_placeholder_flag": false,
+            "size": 0,
+            "subType": 0,
+            "subtitle_language_codes": null,
+            "type": 2,
+            "use_count": 0,
+            "voice_language_codes": null
+          }
+        ],
+        "id": "EP0576-CUSA04143_00-LASTBLADE2000PS4-E001",
+        "is_original": false,
+        "name": "Full Game",
+        "platforms": [
+          0,
+          10,
+          13
+        ],
+        "price": 6300,
+        "rewards": [
+          {
+            "id": "IP9102-NPIA90006_01-RWD-1005",
+            "entitlement_id": "IP9102-NPIA90006_01-RWD-1005",
+            "service_provider_id": "IP9102",
+            "discount": 10,
+            "price": 5670,
+            "reward_type": 2,
+            "display_price": "56,70 zl",
+            "name": "10% Discount reward (none of these will expire with subscription",
+            "description": "If you\u2019re a PlayStation\u00aePlus member, you can download this item for the reduced price displayed and it\u2019s yours to keep forever. Not a member yet? Subscribe to PlayStation\u00aePlus for loads of PlayStation\u00ae extras!\r\n",
+            "isPlus": true,
+            "start_date": "2016-05-24T22:00:00Z",
+            "end_date": "2016-06-07T23:00:00Z",
+            "reward_source_type_id": 1
+          }
+        ],
+        "seasonPassExclusiveFlag": false,
+        "skuAvailabilityOverrideFlag": false,
+        "sku_type": 0,
+        "type": "standard"
+      },
+      "gameContentTypesList": [
+        {
+          "name": "Game",
+          "key": "GAME"
+        }
+      ],
+      "game_contentType": "Game",
+      "id": "EP0576-CUSA04143_00-LASTBLADE2000PS4",
+      "images": [
+        {
+          "type": 1,
+          "url": "http:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/9NCxW2bSuGYIrWM6irUdqc3PVQgUAYSd.png"
+        },
+        {
+          "type": 2,
+          "url": "http:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/UD197Uijbrok5D75AO8PVyhMbr2qMZe1.png"
+        },
+        {
+          "type": 9,
+          "url": "http:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/c5mS6nsnBgVmgOKzoWX8jxBbThfBJwmj.png"
+        },
+        {
+          "type": 10,
+          "url": "http:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/pJFpW5f6WzTKlupIcQOmtYGqx1Nzkqq5.png"
+        }
+      ],
+      "name": "THE LAST BLADE 2",
+      "playable_platform": [
+        "PS4\u2122",
+        "PS Vita"
+      ],
+      "provider_name": "SNK Playmore",
+      "release_date": "2016-05-25T00:00:00Z",
+      "restricted": false,
+      "revision": 14,
+      "short_name": "THE LAST BLADE 2",
+      "timestamp": 1464347942000,
+      "top_category": "downloadable_game",
+      "url": "https:\/\/store.playstation.com\/store\/api\/chihiro\/00_09_000\/container\/PL\/en\/999\/EP0576-CUSA04143_00-LASTBLADE2000PS4?game_content_type=games&size=30&gkb=1&geoCountry=PL&start=0",
+      "expanded": true,
+      "age_limit": 12,
+      "content_descriptors": [
+        {
+          "description": "Violence",
+          "url": "https:\/\/cdn-a.sonyentertainmentnetwork.com\/grc\/images\/descriptors\/sd\/pegi\/violence.png",
+          "name": "Violence"
+        }
+      ],
+      "content_origin": 0,
+      "content_rating": {
+        "rating_system": "PEGI",
+        "url": "https:\/\/cdn-a.sonyentertainmentnetwork.com\/grc\/images\/ratings\/hd\/pegi\/12.png"
+      },
+      "dob_required": false,
+      "links": [
+
+      ],
+      "long_desc": "\u201cHell\u2019s Gate\u201d is a boundary between life and death. Four 'Mythological Symbols' are about to fight an ultimate spirit awakened from the netherworld to the death, and send him straight to 'Hell's Gate'. In addition to 12 combatants from the previous title, 4 brand new characters and 2 hidden characters join the fight in the gorgeous roster of 18 characters. Select your favorite sword attack type among the \u201cPOWER\u201d, \u201cSPEED\u201d, and \u201cEXTREME\u201d modes. Master the \u201dREPEL\u201d mechanic to counter your opponent\u2019s attacks,  and when the time comes activate the \u201cSUPER SECRET SLASH\u201d, \u201cHIDDEN SECRET SLASH\u201d and \u201cENIGMA FRENZY-ATTACK\u201d ultimate techniques in order to change the outcome of the battle! Discover or rediscover \u201cTHE LAST BLADE 2\u201d, which is still considered as the pinnacle of the blade-based fighting game genre around the world to this day! This Cross-Buy product entitles you to download both PS4\u2122 and PS Vita versions.<br><br>1-2 players<br>Network Players 2-2<br>Cross Platform Features PS4\u2122 - PS Vita<br>HD Video Output 720p,1080i,1080p<br><br>Download of this product is subject to the PlayStation Network Terms of Service and our Software Usage Terms plus any specific additional conditions applying to this product. If you do not wish to accept these terms, do not download this product. See Terms of Service for more important information.<br> PS4: One-time licence fee to download to multiple PS4 systems. Sign in to PlayStation Network is not required to use this on your primary PS4, but is required for use on other PS4 systems.<br>PS Vita: One-time fee for use of downloads on up to 3 activated compatible Portable Console systems.<br>See Health Warnings for important health information before using this product.<br>Library programs \u00a9Sony Computer Entertainment Inc. exclusively licensed to Sony Computer Entertainment Europe. Software Usage Terms apply, See eu.playstation.com\/legal for full usage rights.<br><br>\u00a9 SNK PLAYMORE CORPORATION ALL RIGHTS RESERVED.",
+      "mediaList": {
+        "previews": [
+          {
+            "type": "PREVIEW",
+            "typeId": 2,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/FREE_CONTENTawTTEJp1XQmE9jOxwRIQ\/trailer.mp4",
+            "order": 0
+          }
+        ],
+        "screenshots": [
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/FREE_CONTENTeHs1vcug4CgOEB7abxV6\/1.jpg",
+            "order": 1
+          },
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/FREE_CONTENTbBFddPeXVsJoeQcoEfuj\/2.jpg",
+            "order": 2
+          },
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/FREE_CONTENTHyhDwVP9byQVtqONCpEh\/3.jpg",
+            "order": 3
+          },
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/FREE_CONTENTQxgjV8TTX4tUaYV2ZoLg\/4.jpg",
+            "order": 4
+          },
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/FREE_CONTENT7KpYR86NbqgfxqLuvmcl\/5.jpg",
+            "order": 5
+          },
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/FREE_CONTENTFvA1A0W5zwPqSTA0F0O8\/6.jpg",
+            "order": 6
+          },
+          {
+            "type": "SCREENSHOT",
+            "typeId": 4,
+            "source": "PRODUCT_MEDIA",
+            "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/FREE_CONTENTNwMwJkeoNd2YidSCadDb\/7.jpg",
+            "order": 7
+          }
+        ]
+      },
+      "media_layouts": [
+        {
+          "type": "description",
+          "height": 1,
+          "width": 4
+        }
+      ],
+      "metadata": {
+        "genre": {
+          "name": "Genre",
+          "values": [
+            "Action",
+            "Arcade"
+          ]
+        },
+        "tertiary_classification": {
+          "name": "tertiary_classification",
+          "values": [
+            "NA"
+          ]
+        },
+        "cn_vrRequired": {
+          "name": "cn_vrRequired",
+          "values": [
+            "FALSE"
+          ]
+        },
+        "cn_dualshockVibration": {
+          "name": "cn_dualshockVibration",
+          "values": [
+            "FALSE"
+          ]
+        },
+        "cn_videoOutput": {
+          "name": "cn_videoOutput",
+          "values": [
+            "1080i",
+            "1080p",
+            "720p"
+          ]
+        },
+        "cn_numberOfPlayers": {
+          "name": "cn_numberOfPlayers",
+          "values": [
+            "2"
+          ]
+        },
+        "game_genre": {
+          "name": "Genre",
+          "values": [
+            "ACTION",
+            "ARCADE"
+          ]
+        },
+        "cn_playstationCamera": {
+          "name": "cn_playstationCamera",
+          "values": [
+            "NOTREQUIRED"
+          ]
+        },
+        "game_subgenre": {
+          "name": "subgenre",
+          "values": [
+            "2D_FIGHTING"
+          ]
+        },
+        "playable_platform": {
+          "name": "playable_platform",
+          "values": [
+            "PS4\u2122",
+            "PS Vita"
+          ]
+        },
+        "cn_playstationMove": {
+          "name": "cn_playstationMove",
+          "values": [
+            "NOTREQUIRED"
+          ]
+        },
+        "cn_remotePlay": {
+          "name": "cn_remotePlay",
+          "values": [
+            "FALSE"
+          ]
+        },
+        "subgenre": {
+          "name": "subgenre",
+          "values": [
+            "2D_FIGHTING"
+          ]
+        },
+        "cn_wirelessController": {
+          "name": "cn_wirelessController",
+          "values": [
+            "NOTREQUIRED"
+          ]
+        },
+        "container_type": {
+          "name": "Container Type",
+          "values": [
+            "NP_PS4_REPRESENTATIVE"
+          ]
+        },
+        "cn_numberOfNetworkPlayers": {
+          "name": "cn_numberOfNetworkPlayers",
+          "values": [
+            "2"
+          ]
+        },
+        "cn_crossPlatformPSVita": {
+          "name": "cn_crossPlatformPSVita",
+          "values": [
+            "TRUE"
+          ]
+        },
+        "cn_vrEnabled": {
+          "name": "cn_vrEnabled",
+          "values": [
+            "FALSE"
+          ]
+        },
+        "secondary_classification": {
+          "name": "secondary_classification",
+          "values": [
+            "GAME"
+          ]
+        },
+        "cn_singstarMicrophone": {
+          "name": "cn_singstarMicrophone",
+          "values": [
+            "NOTREQUIRED"
+          ]
+        },
+        "primary_classification": {
+          "name": "primary_classification",
+          "values": [
+            "DOWNLOADABLE_GAME"
+          ]
+        }
+      },
+      "pageTypeId": 2,
+      "promomedia": [
+        {
+          "id": 0,
+          "key": "preview",
+          "type": 2,
+          "url": "https:\/\/apollo2.dl.playstation.net\/cdn\/EP0576\/CUSA04143_00\/FREE_CONTENTawTTEJp1XQmE9jOxwRIQ\/trailer.mp4?country=PL"
+        }
+      ],
+      "size": 0,
+      "sku_links": [
+
+      ],
+      "skus": [
+        {
+          "amortizeFlag": false,
+          "bundleExclusiveFlag": false,
+          "chargeImmediatelyFlag": false,
+          "charge_type_id": 0,
+          "credit_card_required_flag": 0,
+          "defaultSku": true,
+          "display_price": "63,00 zl",
+          "eligibilities": [
+
+          ],
+          "end_date": "2016-06-07T23:00:00Z",
+          "entitlements": [
+            {
+              "description": null,
+              "drms": [
+
+              ],
+              "duration": 0,
+              "exp_after_first_use": 0,
+              "feature_type_id": 0,
+              "id": "EP0576-CUSA04143_00-ETH0000000000367",
+              "license_type": 0,
+              "name": "LastBlade2",
+              "packages": [
+                {
+                  "platformId": 13,
+                  "platformName": "ps4",
+                  "size": 10485760
+                }
+              ],
+              "preorder_placeholder_flag": false,
+              "size": 0,
+              "subType": 0,
+              "subtitle_language_codes": null,
+              "type": 5,
+              "use_count": 0,
+              "voice_language_codes": null
+            },
+            {
+              "description": null,
+              "drms": [
+
+              ],
+              "duration": 0,
+              "exp_after_first_use": 0,
+              "feature_type_id": 3,
+              "id": "EP0576-CUSA04143_00-LASTBLADE2000PS4",
+              "license_type": 0,
+              "name": "THE LAST BLADE 2",
+              "packages": [
+                {
+                  "platformId": 13,
+                  "platformName": "ps4",
+                  "size": 259194880
+                }
+              ],
+              "preorder_placeholder_flag": false,
+              "size": 0,
+              "subType": 0,
+              "subtitle_language_codes": [
+                "pt",
+                "ja",
+                "en",
+                "es"
+              ],
+              "type": 5,
+              "use_count": 0,
+              "voice_language_codes": [
+                "ja"
+              ]
+            },
+            {
+              "description": null,
+              "drms": [
+                {
+                  "drm_category_type": 5,
+                  "id": "EP0576-PCSB00927_00-ETH0000000000368",
+                  "is_streamable": 0,
+                  "media_prop": {
+
+                  },
+                  "size": 5570352,
+                  "type": 2
+                }
+              ],
+              "duration": 0,
+              "exp_after_first_use": 0,
+              "feature_type_id": 0,
+              "id": "EP0576-PCSB00927_00-ETH0000000000368",
+              "license_type": 1,
+              "name": "THE LAST BLADE 2 THEME",
+              "packages": [
+
+              ],
+              "preorder_placeholder_flag": false,
+              "size": 0,
+              "subType": 0,
+              "subtitle_language_codes": null,
+              "type": 2,
+              "use_count": 0,
+              "voice_language_codes": null
+            },
+            {
+              "description": null,
+              "drms": [
+                {
+                  "drm_category_type": 5,
+                  "id": "EP0576-PCSB00927_00-LASTBLADE2000PSV",
+                  "is_streamable": 0,
+                  "media_prop": {
+
+                  },
+                  "size": 164114992,
+                  "type": 2
+                }
+              ],
+              "duration": 0,
+              "exp_after_first_use": 0,
+              "feature_type_id": 0,
+              "id": "EP0576-PCSB00927_00-LASTBLADE2000PSV",
+              "license_type": 1,
+              "name": "THE LAST BLADE 2",
+              "packages": [
+
+              ],
+              "preorder_placeholder_flag": false,
+              "size": 0,
+              "subType": 0,
+              "subtitle_language_codes": null,
+              "type": 2,
+              "use_count": 0,
+              "voice_language_codes": null
+            }
+          ],
+          "id": "EP0576-CUSA04143_00-LASTBLADE2000PS4-E001",
+          "is_original": false,
+          "name": "Full Game",
+          "platforms": [
+            0,
+            10,
+            13
+          ],
+          "price": 6300,
+          "rewards": [
+            {
+              "id": "IP9102-NPIA90006_01-RWD-1005",
+              "entitlement_id": "IP9102-NPIA90006_01-RWD-1005",
+              "service_provider_id": "IP9102",
+              "discount": 10,
+              "price": 5670,
+              "reward_type": 2,
+              "display_price": "56,70 zl",
+              "name": "10% Discount reward (none of these will expire with subscription",
+              "description": "If you\u2019re a PlayStation\u00aePlus member, you can download this item for the reduced price displayed and it\u2019s yours to keep forever. Not a member yet? Subscribe to PlayStation\u00aePlus for loads of PlayStation\u00ae extras!\r\n",
+              "isPlus": true,
+              "start_date": "2016-05-24T22:00:00Z",
+              "end_date": "2016-06-07T23:00:00Z",
+              "reward_source_type_id": 1
+            }
+          ],
+          "seasonPassExclusiveFlag": false,
+          "skuAvailabilityOverrideFlag": false,
+          "sku_type": 0,
+          "type": "standard"
+        }
+      ],
+      "star_rating": {
+        "total": "87",
+        "score": "4.79",
+        "count": [
+          {
+            "star": 1,
+            "count": 1
+          },
+          {
+            "star": 3,
+            "count": 3
+          },
+          {
+            "star": 4,
+            "count": 8
+          },
+          {
+            "star": 5,
+            "count": 75
+          }
+        ]
+      },
+      "start": 0,
+      "title_name": "THE LAST BLADE 2",
+      "total_results": 0,
+      "depth": 0,
+      "skuFound": true
+    }
