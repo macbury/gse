@@ -9,6 +9,8 @@ http_interactions:
     headers:
       User-Agent:
       - Faraday v0.9.2
+      If-None-Match:
+      - W/"c983f-crVY86fQvo14H5uVmAmsAQ"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -25,7 +27,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       X-Kmb:
-      - 11-68
+      - 11-4
       X-Powered-By:
       - Express
       Vary:
@@ -33,7 +35,7 @@ http_interactions:
       Cache-Control:
       - public, max-age=300
       Date:
-      - Mon, 30 May 2016 09:08:04 GMT
+      - Mon, 30 May 2016 11:25:23 GMT
       Transfer-Encoding:
       - chunked
       Connection:
@@ -18386,5 +18388,5 @@ http_interactions:
         NTAwLTk5OSUyQ3ByaWNlJTNBMTAwMC0xOTk5JTJDcHJpY2UlM0EyMDAwLSoi
         LCJleHBhbmRlZCI6dHJ1ZX0=
     http_version: 
-  recorded_at: Mon, 30 May 2016 09:08:05 GMT
+  recorded_at: Mon, 30 May 2016 11:25:33 GMT
 recorded_with: VCR 3.0.3

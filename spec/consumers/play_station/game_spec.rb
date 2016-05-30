@@ -1,21 +1,11 @@
 require 'rails_helper'
 
 describe PlayStation::Game do
-  context 'Game not published' do
-    it 'has current price nil' do
-      expect(game.price).to be_nil
-    end
-
-    it 'is not published' do
-      expect(game).not_to be_published
-    end
-  end
-
-  context 'Game with discount' do
-    subject(:game) { described_class.new(JSON.parse(open(Rails.root.join('spec/fixtures/games/ps4_last_blade2.json')).read)) }
+  context 'Astebreed' do
+    subject(:game) { described_class.new(JSON.parse(open(Rails.root.join('spec/fixtures/games/ps_astebreed.json')).read)) }
 
     it 'has current price with discount' do
-      expect(game.price.to_i).to eq(124)
+      expect(game.price.to_i).to eq(25)
     end
   end
 
@@ -23,7 +13,7 @@ describe PlayStation::Game do
     subject(:game) { described_class.new(JSON.parse(open(Rails.root.join('spec/fixtures/games/ps4_last_blade2.json')).read)) }
 
     it 'has current price without plus discount' do
-      expect(game.ps_plus_price).to eq(56)
+      expect(game.ps_plus_price.to_i).to eq(56)
     end
 
     it 'has current price' do
@@ -59,7 +49,7 @@ describe PlayStation::Game do
     end
 
     it 'has playstation store url' do
-      expect(game.url).to eq('https://store.playstation.com/#!/en-pl/games/battlefield-4-premium-edition/cid=EP0006-CUSA00049_00-BF4PREMIUMEDITIO')
+      expect(game.url).to eq('https://store.playstation.com/#!/en-pl/games/cid=EP0006-CUSA00049_00-BATTLEFIELD40000')
     end
 
     it 'has main poster' do

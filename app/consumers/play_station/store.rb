@@ -1,7 +1,7 @@
 # :nodoc:
 module PlayStation
   # This class uses PlayStation store json api to retrive list of games
-  class StoreConsumer
+  class Store
     include Enumerable
     URL      = 'https://store.playstation.com'.freeze
     PER_PAGE = 30
