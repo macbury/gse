@@ -297,6 +297,7 @@ GEM
     websocket-extensions (0.1.2)
     xpath (2.0.0)
       nokogiri (~> 1.3)
+    yard (0.8.7.6)
 
 PLATFORMS
   ruby
@@ -332,6 +333,7 @@ DEPENDENCIES
   travis
   vcr
   webmock
+  yard
 
 BUNDLED WITH
    1.12.5

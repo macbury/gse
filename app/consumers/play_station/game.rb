@@ -2,7 +2,23 @@
 module PlayStation
   # This model describes playstation store game
   class Game
-    attr_accessor :name, :price, :description, :id, :release_date, :images, :ps_plus_price, :poster_url, :screenshoots
+    # Title of game
+    attr_reader :name
+    # Current price of game. Nil if game is not published
+    attr_reader :price
+    # Description of game, contains small amount of html
+    attr_reader :description
+    # Id of game in playstation store
+    attr_reader :id
+    # Relase date of game
+    attr_reader :release_date
+    # Price of game if user have ps plus membership. It might be nil
+    attr_reader :ps_plus_price
+    # Url to poster image
+    attr_reader :poster_url
+    # Array of screenshoots urls
+    attr_reader :screenshoots
+
     def initialize(raw_json = {})
       @id           = raw_json['id']
       @name         = raw_json['name']
@@ -24,6 +40,7 @@ module PlayStation
       "https://store.playstation.com/#!/en-pl/games/cid=#{@id}"
     end
 
+    # Url to image that can be used for background. If nil then it returns poster_url
     def background_url
       @background_url || @poster_url
     end

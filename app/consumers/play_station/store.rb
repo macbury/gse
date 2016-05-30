@@ -5,7 +5,11 @@ module PlayStation
     include Enumerable
     URL      = 'https://store.playstation.com'.freeze
     PER_PAGE = 30
-    attr_reader :page, :games
+
+    # Current page
+    attr_reader :page
+    # Return list of fetched games
+    attr_reader :games
 
     def initialize
       @api = Faraday.new(url: URL) do |faraday|
@@ -26,6 +30,7 @@ module PlayStation
       !@games.blank?
     end
 
+    # Fetch all games from playstation store and iterate over it
     def each(*)
       @page = 0
       @games.each { |game| yield(game) } while self.next

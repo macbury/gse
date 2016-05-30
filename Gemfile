@@ -15,7 +15,7 @@ group :development, :test do
   gem 'annotate'
   gem 'foreman'
   gem 'rspec-rails'
-
+  gem 'yard'
   gem 'guard-rspec', '4.6.0'
   gem 'guard-shell'
   gem 'guard-rubocop'
