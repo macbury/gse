@@ -53,17 +53,17 @@ describe PlayStation::Game do
     end
 
     it 'has main poster' do
-      expect(game.poster_url).to eq('http://apollo2.dl.playstation.net/cdn/EP0006/CUSA00049_00/ICcPzCS2XUjvKTCFJ6VIXpZrqF99NUSG.png')
+      expect(game.poster_url).to eq('http://apollo2.dl.playstation.net/cdn/EP0006/CUSA00049_00/xC07fjBvSuKnFmDI47F4NX3GKrqR254D.png')
     end
 
     it 'has background' do
-      expect(game.background_url).to eq('http://apollo2.dl.playstation.net/cdn/EP0006/CUSA00049_00/igWongSLd6SU5M8mLM2r9NyLL506oWew.jpg')
+      expect(game.background_url).to eq('http://apollo2.dl.playstation.net/cdn/EP0006/CUSA00049_00/ICcPzCS2XUjvKTCFJ6VIXpZrqF99NUSG.png')
     end
 
     it 'has screenshoots' do
       expect(game.screenshoots).not_to be_empty
       expect(game.screenshoots.size).to eq(5)
-      expect(game.screenshoots[0]).to eq('https://apollo2.dl.playstation.net//cdn//EP0006//CUSA00049_00//FREE_CONTENTI3EuUf72Ivqtk04foHEv//PREVIEW_SCREENSHOT5_416515.jpg')
+      expect(game.screenshoots[0]).to eq('https://apollo2.dl.playstation.net/cdn/EP0006/CUSA00049_00/FREE_CONTENTI3EuUf72Ivqtk04foHEv/PREVIEW_SCREENSHOT5_416515.jpg')
     end
 
     it 'is published' do

@@ -2,13 +2,15 @@
 module PlayStation
   # This model describes playstation store game
   class Game
-    attr_accessor :name, :price, :description, :id, :release_date, :images, :ps_plus_price
+    attr_accessor :name, :price, :description, :id, :release_date, :images, :ps_plus_price, :poster_url, :screenshoots
     def initialize(raw_json = {})
       @id           = raw_json['id']
       @name         = raw_json['name']
       @description  = raw_json['long_desc']
       @release_date = Date.parse(raw_json['release_date'])
-      product_desc  = raw_json['default_sku']
+      find_best_background_or_poster(raw_json)
+      find_screenshoots(raw_json)
+      product_desc = raw_json['default_sku']
       find_prices(product_desc) if product_desc.present?
     end
 
@@ -22,7 +24,27 @@ module PlayStation
       "https://store.playstation.com/#!/en-pl/games/cid=#{@id}"
     end
 
+    def background_url
+      @background_url || @poster_url
+    end
+
     private
+
+    # Find all screenshoots
+    def find_screenshoots(raw_json)
+      @screenshoots = raw_json['mediaList']['screenshots'].map { |raw_screenshoot| raw_screenshoot['url'] } if raw_json['mediaList'] && raw_json['mediaList'].key?('screenshots')
+    end
+
+    # Find best picture for poster
+    def find_best_background_or_poster(raw_json)
+      raw_json['images'].sort { |a, b| a['type'] <=> b['type'] }.each do |raw_image|
+        # most of images with type 9 have nice icon poster.
+        @poster_url = raw_image['url'] if raw_image['type'] == 9
+
+        # Type 10 probably used for playstation store background on ps4
+        @background_url = raw_image['url'] if raw_image['type'] == 10
+      end
+    end
 
     # Find normal price, discount price and ps plus price
     def find_prices(product_desc)

@@ -27,15 +27,15 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       X-Kmb:
-      - 11-4
+      - 11-53
       X-Powered-By:
       - Express
       Vary:
       - Accept-Encoding
       Cache-Control:
-      - public, max-age=300
+      - public, max-age=299
       Date:
-      - Mon, 30 May 2016 11:25:23 GMT
+      - Mon, 30 May 2016 13:50:04 GMT
       Transfer-Encoding:
       - chunked
       Connection:
@@ -18388,5 +18388,5 @@ http_interactions:
         NTAwLTk5OSUyQ3ByaWNlJTNBMTAwMC0xOTk5JTJDcHJpY2UlM0EyMDAwLSoi
         LCJleHBhbmRlZCI6dHJ1ZX0=
     http_version: 
-  recorded_at: Mon, 30 May 2016 11:25:33 GMT
+  recorded_at: Mon, 30 May 2016 13:50:06 GMT
 recorded_with: VCR 3.0.3
